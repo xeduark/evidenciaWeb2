@@ -1,0 +1,10 @@
+.app-container {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    height: 100vh; /* Altura completa de la vista */
+  }
+  body{
+    background-color: grey;
+  }

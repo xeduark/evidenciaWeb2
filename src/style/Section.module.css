@@ -1,0 +1,14 @@
+.section {
+    width: 475px;
+    height: 248px;
+    background-color: #067602; 
+    border: 1px solid #ccc;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  h1{
+    color: #ccc;
+    margin: 0;
+  }
+  

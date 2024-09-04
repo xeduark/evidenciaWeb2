@@ -1,0 +1,51 @@
+.container {
+  display: flex; /* Usa Flexbox para organizar el formulario y las secciones en una columna */
+  flex-direction: column; /* Organiza los elementos en una columna */
+  align-items: center; /* Centra horizontalmente el contenido dentro del contenedor */
+}
+
+.form {
+  width: 1579px;
+  height: 333px;
+  background-color: #067602; /* Color de fondo verde */
+  border: 1px solid #ccc; /* Borde gris claro */
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en una columna */
+  align-items: center; /* Centra horizontalmente el contenido dentro del formulario */
+  justify-content: center; /* Centra verticalmente el contenido dentro del formulario */
+  margin-bottom: 20px; /* Espacio abajo del formulario */
+}
+
+h1 {
+  color: #ccc; /* Color del texto del encabezado */
+  margin: 0; /* Elimina el margen por defecto */
+  display: grid; /* Usa el sistema de grid layout */
+  place-items: center; /* Centra el texto en ambas direcciones (horizontal y vertical) */
+}
+
+.inputButtonContainer {
+  display: flex; /* Usa Flexbox para alinear los elementos hijos */
+  align-items: center; /* Centra verticalmente el input y el botón dentro del contenedor */
+  justify-content: flex-start; /* Alinea los elementos al inicio (esto es opcional) */
+}
+
+.inputContainer {
+  margin-right: 10px; /* Espacio entre el input y el botón */
+}
+
+.sectionsContainer {
+  display: flex; /* Usa Flexbox para organizar las secciones y párrafos */
+  flex-direction: row; /* Organiza los items en una fila */
+  flex-wrap: wrap; /* Permite que los items se envuelvan si es necesario */
+  justify-content: space-between; /* Distribuye el espacio entre los items y asegura que ocupen el ancho del contenedor */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  gap: 20px; /* Espacio entre los items */
+}
+
+.sectionWrapper {
+  display: flex; /* Usa Flexbox para organizar la sección y el párrafo */
+  flex-direction: column; /* Organiza la sección y el párrafo en una columna */
+  align-items: center; /* Centra horizontalmente la sección y el párrafo */
+  width: 30%; /* Asegura que cada wrapper ocupe aproximadamente un tercio del ancho del contenedor (ajustable) */
+  box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho total */
+}

@@ -1,0 +1,16 @@
+.paragraph {
+    width: 475px;
+    height: 96px;
+    background-color: #ebd007;
+    border: 1px solid #ccc;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  h1{
+    color: #ccc;
+    margin: 0;
+  }
+  
+  

@@ -1,0 +1,13 @@
+.header {
+    width: 1920px;
+    height: 112px;
+    background-color: #580251;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    place-items: center;
+  }
+  h1{
+    color: #ccc;
+    margin: 0;
+  }
+  
